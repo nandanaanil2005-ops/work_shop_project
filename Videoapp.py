@@ -96,8 +96,8 @@ def create_video(image_files, duplicate_count, fps, audio_path):
 st.set_page_config(page_title="Funny Cat World", layout="wide")
 
 # Display logo if it exists
-if os.path.exists("PragyanAI_Transperent.png"):
-    st.image("PragyanAI_Transperent.png")
+if os.path.exists("welcoming cat.jpg"):
+    st.image("welcoming cat.jpg")
 
 st.title("Welcome To Funny Cat World")
 st.markdown("Upload multiple images, specify timing, and add audio from a file or YouTube.")
